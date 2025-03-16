@@ -37,10 +37,12 @@ console.log(mod(num3, num4));
 
 // Create a variable called max that finds the highest number in a set; the value returned should be 20.
 
-const max = Math.max()
+
+
 const numSet = [3,5,7,9,13,20,17];
+const max = Math.max(...numSet);
 
 let results = Math.max(...numSet);
 
-console.log(results);
+console.log(max);
 
