@@ -28,11 +28,11 @@ let num4 = 6;
 let mod = num3 % num4; 
 console.log(mod);
 
-//or 
-function mod(num3, num4) {
-    return num3 % num4;
-}
-console.log(mod(num3, num4));
+// //or 
+// function mod(num3, num4) {
+//     return num3 % num4;
+// }
+// console.log(mod(num3, num4));
 
 
 // Create a variable called max that finds the highest number in a set; the value returned should be 20.
@@ -44,7 +44,10 @@ console.log(mod(num3, num4));
 // const numSet = [5, 12, 20, 8, 15];
 // const max = Math.max(...new numSet([5, 12, 20, 8, 15]));
 
-// console.log(max);
+let max = Math.max(5, 12, 20, 8, 15);
 
-// const max = Math.max(5, 12, 20, 8, 15);
+console.log(max);
+
+
+
 
